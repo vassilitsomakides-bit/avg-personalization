@@ -1,0 +1,14 @@
+name: avg-personalization
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - pyyaml
+  - pip
+  - pip:
+      - python-dotenv
+      - requests
