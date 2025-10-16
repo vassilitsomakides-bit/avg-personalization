@@ -15,3 +15,15 @@ outputs/
 reports/
 artifacts/
 sandbox/
+# --- Data privacy hardening ---
+data/
+sandbox/
+# Secrets
+.env
+*.env
+api_token.txt
+# Local artifacts (optional)
+*.sqlite
+*.parquet
+# IDE
+.idea/
